@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="portfolio.css">
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="navbar-nav row">
+        <nav class="navbar navbar-expand fixed-top justify-content-end" id="1">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href=""><Strong>Home</Strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#2">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#3">Trabalhos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#4">Formulário para contato</a>
+            </li>
+          </ul>
+        </nav>      
+        <header class="col-md-12">
+          <img src="/img/avatar.png" class="mx-auto d-block" style="width: 250px;" alt="BrunoC.Angst">
+        </header>
+      </div>
+      <div class="row">
+        <section class="col-md-10">
+          <article id="2" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+            <headerArticle>
+              <h4>O título do artigo é aqui</h4>
+              <p>Publicado em <time datetime="2015-03-09T13:00:24+01:00">09 de Março de 2015</time> por <a href="#">Author</a> - <a href="#comments">30 comentários</a></p>
+            </header>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </article>
+          <article id="3" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+            <headerArticle>
+              <h4>O título do artigo é aqui</h4>
+              <p>Publicado em <time datetime="2015-03-09T13:00:24+01:00">09 de Março de 2015</time> por <a href="#">Author</a> - <a href="#comments">15 comentários</a></p>
+            </headerArticle>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </article>
+          <form id="4" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+            <h4>Me pergunte!</h4>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Sua graça</span>
+              </div>
+              <input type="text" class="form-control" placeholder="Nome">
+              <input type="text" class="form-control" placeholder="Sobrenome">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" id="comment" placeholder="Comente aqui!"></textarea>
+            </div>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" id="email" placeholder="Seu melhor email" name="email">
+              </div>
+          </form>
+        </section>
+        <aside class="col-md-2">
+          <h4>Entre em contato</h4>
+          <ul class="list-group">
+            <li>
+              <a href=""><img src="https://img.icons8.com/doodle/48/000000/linkedin-circled.png"></a>
+            </li>
+            <li>
+              <a href=""><img src="https://img.icons8.com/doodle/48/000000/facebook-circled.png"></a>
+            </li>
+            <li>
+              <a href=""><img src="https://img.icons8.com/doodle/48/000000/email-sign.png"></a>
+            </li>
+            <li>
+              <a href=""><img src="https://img.icons8.com/doodle/48/000000/twitter-circled.png"></a>
+            </li>
+            <li>
+              <a href=""><img src="https://img.icons8.com/doodle/48/000000/instagram-new.png"></a>
+            </li>
+            <li>
+              <a href=""><img src="https://img.icons8.com/windows/64/000000/telegram-app.png"></a>
+            </li>
+            <li>
+              <a href=""><img src="https://img.icons8.com/doodle/48/000000/whatsapp.png"></a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+      <div class="row">
+        <footer class="col-md-12">
+          <p>Copyright 2020 Código Fonte©</p>
+        </footer> 
+      </div>    
+    </div>    
+  </body>  
+</html>
