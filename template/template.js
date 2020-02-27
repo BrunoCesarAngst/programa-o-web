@@ -1,0 +1,1 @@
+$('section').scrollspy({ target: '#navbar-example' })
